@@ -4,6 +4,7 @@
  * Clean Blue-and-White Theme & Interactions
  */
 
+
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initNavigation();
@@ -104,7 +105,7 @@ function initScrollSpy() {
  */
 function initScrollAnimations() {
   const cards = document.querySelectorAll('.card, .timeline-item, .hero-content, .hero-visual');
-  
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
