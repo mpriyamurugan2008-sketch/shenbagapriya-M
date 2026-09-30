@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091e3a" />
+      <stop offset="50%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#032541" />
+    </linearGradient>
+    <linearGradient id="glow2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0062ff" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg2)" />
+  <circle cx="480" cy="100" r="150" fill="#0062ff" opacity="0.12" filter="blur(40px)" />
+  <circle cx="120" cy="270" r="130" fill="#00d2ff" opacity="0.1" filter="blur(40px)" />
+
+  <!-- Loop / Infinity Diagram for Enterprise Design Thinking -->
+  <g transform="translate(60, 50)">
+    <rect width="480" height="260" rx="14" fill="#0c1626" stroke="rgba(0,210,255,0.2)" stroke-width="1.5"/>
+    <text x="240" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#70a6ff" text-anchor="middle" letter-spacing="1">IBM ENTERPRISE DESIGN THINKING</text>
+    <text x="240" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8892b0" text-anchor="middle">Observe · Reflect · Make (The Continuous Loop)</text>
+    
+    <!-- 3 Core Pillars Cards -->
+    <!-- Observe -->
+    <rect x="35" y="95" width="120" height="125" rx="10" fill="#112240" stroke="rgba(0,98,255,0.4)" stroke-width="1"/>
+    <circle cx="95" cy="130" r="18" fill="#0062ff" opacity="0.25"/>
+    <path d="M 88 130 C 88 124 102 124 102 130 C 102 136 88 136 88 130 Z" stroke="#00d2ff" stroke-width="2" fill="none"/>
+    <circle cx="95" cy="130" r="3" fill="#00d2ff"/>
+    <text x="95" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#e6f1ff" text-anchor="middle">Observe</text>
+    <text x="95" y="190" font-family="'Inter', sans-serif" font-size="9" fill="#8892b0" text-anchor="middle">User Empathy</text>
+
+    <!-- Reflect -->
+    <rect x="180" y="95" width="120" height="125" rx="10" fill="#112240" stroke="rgba(0,98,255,0.4)" stroke-width="1"/>
+    <circle cx="240" cy="130" r="18" fill="#0062ff" opacity="0.25"/>
+    <path d="M 235 125 L 245 125 L 245 135 L 235 135 Z" stroke="#00d2ff" stroke-width="1.5" fill="none"/>
+    <text x="240" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#e6f1ff" text-anchor="middle">Reflect</text>
+    <text x="240" y="190" font-family="'Inter', sans-serif" font-size="9" fill="#8892b0" text-anchor="middle">Synthesize Ideas</text>
+
+    <!-- Make -->
+    <rect x="325" y="95" width="120" height="125" rx="10" fill="#112240" stroke="rgba(0,98,255,0.4)" stroke-width="1"/>
+    <circle cx="385" cy="130" r="18" fill="#0062ff" opacity="0.25"/>
+    <polygon points="385,120 395,135 375,135" stroke="#00d2ff" stroke-width="1.5" fill="none"/>
+    <text x="385" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#e6f1ff" text-anchor="middle">Make</text>
+    <text x="385" y="190" font-family="'Inter', sans-serif" font-size="9" fill="#8892b0" text-anchor="middle">Prototype Fast</text>
+  </g>
+</svg>

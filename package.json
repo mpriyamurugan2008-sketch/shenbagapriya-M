@@ -1,0 +1,24 @@
+{
+  "name": "shenbagapriya-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Production portfolio website for Shenbagapriya M - Web Designer & Computer Science and Design Student",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "web-design",
+    "computer-science",
+    "design-thinking",
+    "shenbagapriya"
+  ],
+  "author": "Shenbagapriya M",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
